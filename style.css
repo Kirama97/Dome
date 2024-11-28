@@ -43,7 +43,7 @@ main header {
     justify-content: space-between;
     gap: 1rem;
     padding: var(--padding);
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -185,3 +185,174 @@ header form button:hover {
 
 
 /*------------------------ fin header -------------------*/
+
+
+main .filtre {
+    padding: var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+}
+
+
+.filtre .breadcumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+
+.breadcumb p {
+    font-size: 0.8;
+    color: var(--grey);
+   
+}
+
+.breadcumb i {
+    color: var(--grey);
+    font-size: 0.6rem;
+}
+
+
+.flitre .filtre-vrais {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.filtre-vrais button {
+    border: none;
+    outline: none;
+    background-color: var(--color-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+
+/* produit  */
+
+
+.produits {
+    padding: var(--padding);
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(250px , 1fr));
+    gap: 1rem;
+    margin-top: 1.3rem;
+    place-items: center;
+}
+
+.produits .carte-produit {
+    width: 260px;
+    gap: 0.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: var(--color-white);
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+
+}
+
+.img img {
+
+   width: 70%;
+   margin: auto;
+   margin-top: 3.3rem;  
+
+}
+
+.carte-produit .img {
+    width: 100%;
+    height: 200px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.img .icons {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.icons .first {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.img .last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(224, 190, 17);
+    flex-direction: column;
+    gap: 5px;
+}
+
+.last p {
+    font-size: 0.7rem;
+    color: var(--grey);
+}
+
+
+.carte-produit .text {
+    margin-top: 1rem;
+  }
+  .text p {
+    font-size: 0.9rem;
+    color: var(--grey);
+  }
+
+
+.text h3 {
+    font-size: 1rem;
+    color: var(--dark);
+    font-weight: bold;
+    padding-top: 0.3rem;
+  }
+  
+  .carte-produit .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.1rem;
+  }
+  .footer .prix p {
+    font-size: 1rem;
+    color: var(--dark);
+    font-weight: 900;
+  }
+  
+  .footer .color {
+    display: flex;
+    gap: 0.3rem;
+  }
+
+
+  .color .item-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .item-color:nth-child(1) {
+    background-color: #ff6b58;
+  }
+  .item-color:nth-child(2) {
+    background-color: #354555;
+  }
+  .item-color:nth-child(3) {
+    background-color: #5f69d5;
+  }
