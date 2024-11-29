@@ -1,7 +1,7 @@
 export const data = [
     {
       id: 1,
-      img: "./assets/im1.png",
+      img: "./Assets/im1.png",
       nom: "Chapeau de paille",
       prix: 10,
       // Description de 30 mots
@@ -11,7 +11,7 @@ export const data = [
     },
     {
       id: 2,
-      img: "./assets/im2.png",
+      img: "./Assets/im2.png",
       nom: "Chapeau cowboy",
       prix: 7,
       // Description de 30 mots
@@ -21,7 +21,7 @@ export const data = [
     },
     {
       id: 3,
-      img: "./assets/im3.png",
+      img: "./Assets/im3.png",
       nom: "Men's hat class",
       prix: 15,
       // Description de 30 mots
@@ -31,7 +31,7 @@ export const data = [
     },
     {
       id: 4,
-      img: "./assets/im4.png",
+      img: "./Assets/im4.png",
       nom: "Man's hat swag",
       prix: 10,
       // Description de 30 mots
@@ -41,7 +41,7 @@ export const data = [
     },
     {
       id: 5,
-      img: "./assets/im5.png",
+      img: "./Assets/im5.png",
       nom: "Chapeau nike air",
       prix: 40,
       // Description de 30 mots
@@ -51,7 +51,7 @@ export const data = [
     },
     {
       id: 6,
-      img: "./assets/im5.png",
+      img: "./Assets/im5.png",
       nom: "Chapeau class homme",
       prix: 10,
       // Description de 30 mots
@@ -61,7 +61,7 @@ export const data = [
     },
     {
       id: 7,
-      img: "./assets/im7.png",
+      img: "./Assets/im7.png",
       nom: "Swag hat co",
       prix: 10,
       // Description de 30 mots
@@ -71,7 +71,7 @@ export const data = [
     },
     {
       id: 8,
-      img: "./assets/im8.png",
+      img: "./Assets/im8.png",
       nom: "Chapeau uhulu",
       prix: 4,
       // Description de 30 mots
@@ -81,7 +81,7 @@ export const data = [
     },
     {
       id: 9,
-      img: "./assets/im9.png",
+      img: "./Assets/im9.png",
       nom: "Chapeau groute",
       prix: 2,
       // Description de 30 mots
@@ -91,7 +91,7 @@ export const data = [
     },
     {
       id: 10,
-      img: "./assets/im10.png",
+      img: "./Assets/im10.png",
       nom: "Hat break fasion",
       prix: 10,
       // Description de 30 mots
@@ -101,7 +101,7 @@ export const data = [
     },
     {
       id: 11,
-      img: "./assets/im11.png",
+      img: "./Assets/im11.png",
       nom: "Jackpot hat for man",
       prix: 10,
       // Description de 30 mots
@@ -111,7 +111,7 @@ export const data = [
     },
     {
       id: 12,
-      img: "./assets/im12.png",
+      img: "./Assets/im12.png",
       nom: "Men's swag style",
       prix: 10,
       // Description de 30 mots
@@ -121,8 +121,8 @@ export const data = [
     },
     {
       id: 13,
-      img: "./assets/im13.png",
-      nom: "mame ngone",
+      img: "./Assets/im13.png",
+      nom: "Chapeau",
       prix: 550,
       // Description de 30 mots
       description:
