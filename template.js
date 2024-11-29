@@ -43,7 +43,7 @@ export const page_vide = (taper) =>{
      <div class="page_vide">
        
         <h3> <span>${taper}</span> est introuvable </h3>
-        <img src="/assets/404.svg" alt="" srcset="">
+        <img src="/Assets/404.svg" alt="" srcset="">
      </div>
   `
 }
