@@ -101,7 +101,7 @@ header form {
 
 
 header form input {
-    width: clamp(200px ,50% ,400px);
+    width: clamp(200px ,50%,400px);
     padding: 0.8rem 0.1rem;
     border: none;
     outline: none;
@@ -415,4 +415,46 @@ main .filtre {
     color: var(--color-white);
     padding: 7px;
     border-radius: 10px;
+  }
+
+
+
+  /* responsive */
+
+
+  @media screen  and (max-width:800px) {
+
+    :root {
+        --padding: 0 1rem ;
+    }
+
+    main header {
+        padding:  var(--padding);
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+
+    header form input {
+        width: 100%;
+    }
+    
+
+    .carte-produit {
+        width: 90%;
+    }
+
+    .carte-produit img {
+        height: auto;
+    }
+
+    body {
+        height: 100lvh;
+    }
   }
