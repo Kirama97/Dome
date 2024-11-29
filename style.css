@@ -150,6 +150,13 @@ header form button:hover {
 
 .action .nombre {
     position: absolute;
+    background-color: var(--dark);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4pX;
+    font-size: 0.8rem;
     top: -8px;
     width: 15px;
     height: 15px;
