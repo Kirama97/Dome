@@ -1,6 +1,10 @@
-export function templateHTML(product) {
-    return `
-      <div class="img">
+
+
+export const templateHTML = (product) => {
+
+  return `
+
+   <div class="img">
               <img src='${product.img}' alt="" />
               <div class="icons">
                 <div class="first">
@@ -28,7 +32,18 @@ export function templateHTML(product) {
                 <div class="item-color"></div>
               </div>
             </div>
-        
-      `;
-  }
+  `
   
+}
+
+
+export const page_vide = (taper) =>{
+
+ return `
+     <div class="page_vide">
+       
+        <h3> <span>${taper}</span> est introuvable </h3>
+        <img src="/assets/404.svg" alt="" srcset="">
+     </div>
+  `
+}
