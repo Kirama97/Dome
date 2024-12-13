@@ -1177,13 +1177,31 @@ dialog::-webkit-scrollbar {
     }
   
     .accessoire .avantages {
-      flex-direction: column;
-      gap: 2rem;
-      align-items: center;
+       i{
+        font-size: 10px;
+       }
+      
+       .carte-service p {
+        font-size: 12px;
+       }
     }
 
-    .avantages .carte-service {
-        align-items: start;
+    .ajouter {
+        p{
+            font-size: 10px;
+        }
+        .icon i {
+            font-size: 8px;
+        }
     }
+
+
+    .fermer{
+        position: fixed;
+        top: 15px;
+    }
+    
+
+   
   }
   
