@@ -2,7 +2,7 @@ export const data = [
     {
       id: 1,
       img: "./Assets/im1.png",
-      nom: "Chapeau",
+      nom: "Chapeau diene",
       prix: 10000,
       // Description de 30 mots
       description:
