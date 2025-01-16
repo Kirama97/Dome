@@ -1205,3 +1205,233 @@ dialog::-webkit-scrollbar {
    
   }
   
+
+  @media  (max-width:450px) {
+
+
+
+    dialog {
+      
+      height: 70vh;
+      
+    }
+ 
+
+  
+  .gauche img {
+    width: 60%;
+    object-fit: cover;
+  }
+  
+
+  .product-page .droite {
+   
+    border-radius: 10px;
+    padding: 1rem;
+    
+  }
+  
+  
+  
+
+  
+
+  
+  .droite .description {
+    width: 75%;
+    margin-top: 1rem;
+  }
+  
+  .droite .colors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  
+  .colors p {
+    font-weight: 600;
+  }
+  .colors .color-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .color-container .color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .container .size {
+    font-size: 10px;
+  }
+
+  .size {
+    padding: 2px;
+  }
+
+  .prix {
+    text-align: center;
+  }
+  
+  .droite .sizes {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  
+  /* Hidding scroll bar */
+  
+  .sizes p {
+    font-weight: 600;
+  }
+  .sizes .container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .container .size {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .container .size.active {
+    border: 2px solid var(--color-primary);
+  }
+  
+  .container .size:hover {
+    background-color: #f2eded;
+    transition: all 0.2s ease-in;
+  }
+  
+  .droite .prix {
+    margin-top: 1rem;
+    padding-left: 1.4rem;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
+  .footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  
+  .footer .counter {
+    width: 130px;
+    border-radius: 1rem;
+    padding: 1.3rem 1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  
+  .counter i {
+    cursor: pointer;
+  }
+ 
+
+  
+  .footer button.ajoute {
+    background-color: rgb(214, 71, 71);
+  }
+  .footer button .icon {
+    font-size: 1.2rem;
+    border: 1px solid var(--color-white);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 0.7rem;
+  }
+  
+  .footer .like {
+   display: none;
+  }
+  
+  .footer .like:hover {
+    background-color: #f2eded;
+    transition: all 0.2s ease;
+  }
+  
+  .footer .like i {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+  }
+  
+  .accessoire {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+  }
+  .bottom {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bottom .carte-cat {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carte-cat img {
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .carte-cat p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--grey);
+    text-align: center;
+  }
+
+  .accessoire {
+    display: none;
+  }
+   }
+  
+   
+    .accessoire {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .footer button {
+      padding: 1rem 0.5rem;
+    }
+  
+    .accessoire .avantages {
+       i{
+        font-size: 10px;
+       }
+      
+       .carte-service p {
+        font-size: 12px;
+       }
+    }
+
+   
+    
+
+
+  
