@@ -1212,14 +1212,14 @@ dialog::-webkit-scrollbar {
 
     dialog {
       
-      height: 70vh;
+      height: 75lvh;
       
     }
  
 
   
   .gauche img {
-    width: 60%;
+    width: 70%;
     object-fit: cover;
   }
   
@@ -1231,10 +1231,12 @@ dialog::-webkit-scrollbar {
     
   }
   
-  
-  
 
   
+
+  .droite {
+    background-color: #333;
+  }
 
   
   .droite .description {
@@ -1313,17 +1315,23 @@ dialog::-webkit-scrollbar {
   }
   
   .droite .prix {
-    margin-top: 1rem;
-    padding-left: 1.4rem;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    background-color: #ee3e26;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
     font-size: 2rem;
     font-weight: 900;
   }
   
   .footer {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    align-items: center;
+   
+    gap: 2rem;
+   
+    
   }
   
   .footer .counter {
