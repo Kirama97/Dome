@@ -1219,7 +1219,7 @@ dialog::-webkit-scrollbar {
 
   
   .gauche img {
-    width: 60%;
+    width: 50%;
     object-fit: cover;
   }
   
